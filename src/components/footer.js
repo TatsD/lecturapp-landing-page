@@ -21,11 +21,8 @@ const Footer = ({ siteTitle }) => (
       }}
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
-        <a
-          style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
-        >
-          Contact Us
+        <a style={{ textDecoration: "none" }} href="https://lecturapp.digital">
+          Admin
         </a>
       </div>
       <div style={{ color: COLORS.gray }}>

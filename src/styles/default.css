@@ -169,9 +169,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: sans-serif;
-  font-weight: normal;
+  color: #021F59;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";

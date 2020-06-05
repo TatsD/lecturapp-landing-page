@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    title: `Lecturapp - UAC`,
+    description: `Una aplicación para mejorar la comprension lectora de forma interactiva.`,
+    author: `Tatiana davila - Aramis De Lamark`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

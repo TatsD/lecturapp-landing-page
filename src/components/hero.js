@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
-      padding: "4rem 1rem",
+      padding: "1.7rem 1rem",
     }}
   >
     <div
@@ -31,21 +31,9 @@ const Header = ({ siteTitle }) => (
       Aplicación para mejorar las habilidades en compresion lectora.
     </p>
     <Button>DESCARGAR</Button>
-    <div style={{ margin: 70, width: `337px`, position: "relative" }}>
+    <div style={{ width: `237px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 3% round 2% 5%)" }}>
         <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
       </div>
     </div>
   </div>
