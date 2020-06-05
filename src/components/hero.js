@@ -26,14 +26,13 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center" }}>LECTURAPP</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      Aplicación para mejorar las habilidades en compresion lectora.
     </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
+    <Button>DESCARGAR</Button>
+    <div style={{ margin: 70, width: `337px`, position: "relative" }}>
+      <div style={{ clipPath: "inset(2% 3% round 2% 5%)" }}>
         <MockupContent />
       </div>
       <div
