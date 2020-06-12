@@ -3,6 +3,7 @@ module.exports = {
     title: `Lecturapp - UAC`,
     description: `Una aplicación para mejorar la comprension lectora de forma interactiva.`,
     author: `Tatiana davila - Aramis De Lamark`,
+    siteUrl: `http://lecturapp.digital`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "G-2B9NJ2CXXB",
       },
     },
     {
