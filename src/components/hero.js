@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -30,7 +29,11 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       Aplicación para mejorar las habilidades en compresion lectora.
     </p>
-    <Button>DESCARGAR</Button>
+    {/* <Button>
+    </Button> */}
+    <a href="http://lecturapp.digital/app/lecturapp.apk" target="_black">
+      DESCARGAR
+    </a>
     <div style={{ width: `237px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 3% round 2% 5%)" }}>
         <MockupContent />
