@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
     />
     <h1 style={{ textAlign: "center" }}>LECTURAPP</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      Aplicación para mejorar las habilidades en compresion lectora.
+      Aplicación para mejorar las habilidades en compresión lectora.
     </p>
     {/* <Button>
     </Button> */}
