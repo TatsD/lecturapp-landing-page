@@ -29,11 +29,13 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       Aplicación para mejorar las habilidades en compresión lectora.
     </p>
-    {/* <Button>
-    </Button> */}
-    <a href="http://lecturapp.digital/app/lecturapp.apk" target="_black">
+    <Button
+      onClick={() => {
+        window.open("http://lecturapp.digital/app/lecturapp.apk", "_blank")
+      }}
+    >
       DESCARGAR
-    </a>
+    </Button>
     <div style={{ width: `237px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 3% round 2% 5%)" }}>
         <MockupContent />

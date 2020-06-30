@@ -21,7 +21,10 @@ const Footer = ({ siteTitle }) => (
       }}
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
-        <a style={{ textDecoration: "none" }} href="https://lecturapp.digital">
+        <a
+          style={{ textDecoration: "none" }}
+          href="http://lecturapp.digital/admin"
+        >
           Admin
         </a>
       </div>
